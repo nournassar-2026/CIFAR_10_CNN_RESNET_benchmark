@@ -213,19 +213,19 @@ comparison_summary.txt # Model comparison
 ```
 cnn_curves.png # CNN training curves 
 ```
-![alt text](cnn_curves.png)
+![CNN curves](cnn_curves.png)
 ```
-resnet18_v1_curves.png # ResNet-18 V1 curves
+![CNN Training Curves](plots/cnn_curves.png)
 ```
 ![alt text](resnet18_v1_curves.png)
 ```
-resnet18_v2_curves.png # ResNet-18 V2 curves
+![ResNet-18 V1 Curves](plots/resnet18_v1_curves.png)
 ```
 ![alt text](resnet18_v2_curves.png)
 ```
 model_comparison.png #Comparison visualization
 ```
-![alt text](model_comparison.png)
+![Model Comparison](https://raw.githubusercontent.com/YOUR_USERNAME/CIFAR_10_CNN_RESNET_benchmark/main/plots/model_comparison.png)ad
 ```
 *_confusion_matrix.png # Confusion matrices
 ```
