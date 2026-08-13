@@ -70,11 +70,7 @@ CNN_RESNET18_Benchmarking
 │ ├── test_resnet18_v2.py # Test ResNet-18 V2
 │ └── evaluate_all.py # Test all models
 │
-├── api/
-│ ├── app.py # FastAPI application
-│ └── model_loader.py # Model loading
-│
-├── models/ # Trained models (.pth)
+├├── models/ # Trained models (.pth)
 ├── results/ # Results (.pkl)
 └── plots/ # Visualizations (.png)
 
