@@ -219,8 +219,10 @@ comparison_summary.txt # Model comparison
 
 ![ResNet-18 V2 Curve](https://raw.githubusercontent.com/nournassar-2026/CIFAR_10_CNN_RESNET_benchmark/main/plots/resnet18_v2_curves.png)
 
-![Model Comparison](https://raw.githubusercontent.com/nournassar-2026/CIFAR_10_CNN_RESNET_benchmark/main/plots/model_comparison.png)
+![Model Comparison](CNN_RESNET18_Benchmarking_CIFAR10/plots/model_comparison.png)
 ```
+
+
 *_confusion_matrix.png # Confusion matrices
 ```
 ![ ](cnn_confusion_matrix-2.png) 
