@@ -70,7 +70,7 @@ CNN_RESNET18_Benchmarking
 │ ├── test_resnet18_v2.py # Test ResNet-18 V2
 │ └── evaluate_all.py # Test all models
 │
-├├── models/ # Trained models (.pth)
+├── models/ # Trained models (.pth)
 ├── results/ # Results (.pkl)
 └── plots/ # Visualizations (.png)
 
@@ -158,8 +158,8 @@ Dropout (0.5) + FC2 (10)
 |Batch Size	|64	|64|	64|
 |Optimizer|	Adam	|Adam	|SGD||
 Learning Rate	|0.001	|0.001	|0.01
-|Weight Decay  	|0	|0.0002	|0.0002
-|Dropout	|0.5	|0.2|	0.3
+|Weight Decay  	|0	|0	|0.0002
+|Dropout	|0.5	|0.0|	0.3
 |Scheduler|	None	|None	|CosineAnnealingLR
 |Early Stopping|	Yes (patience=5)|	Yes (patience=5)	|Yes (patience=5)
 
@@ -210,22 +210,15 @@ resnet18_v2_results.pkl # ResNet-18 V2 history
 comparison_summary.txt # Model comparison
 ```
 ### Plots (plots/)
-```
-cnn_curves.png # CNN training curves 
-```
-![CNN curves](cnn_curves.png)
-```
-![CNN Training Curves](plots/cnn_curves.png)
-```
-![alt text](resnet18_v1_curves.png)
-```
-![ResNet-18 V1 Curves](plots/resnet18_v1_curves.png)
-```
-![alt text](resnet18_v2_curves.png)
-```
-model_comparison.png #Comparison visualization
-```
-![Model Comparison](https://raw.githubusercontent.com/YOUR_USERNAME/CIFAR_10_CNN_RESNET_benchmark/main/plots/model_comparison.png)ad
+
+![CNN training curves](plots/cnn_curves.png)
+
+
+![ResNet-18 V1 Curves](https://raw.githubusercontent.com/nournassar-2026/CIFAR_10_CNN_RESNET_benchmark/main/plots/resnet18_v1_curves.png)
+
+![alt text](https://raw.githubusercontent.com/nournassar-2026/CIFAR_10_CNN_RESNET_benchmark/main/plots/    resnet18_v2_curves.png)
+
+![Model Comparison](https://raw.githubusercontent.com/nournassar-2026/CIFAR_10_CNN_RESNET_benchmark/main/plots/model_comparison.png)
 ```
 *_confusion_matrix.png # Confusion matrices
 ```
