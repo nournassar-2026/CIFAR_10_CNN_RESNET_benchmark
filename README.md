@@ -19,7 +19,9 @@ This project uses the CIFAR-10 dataset containing:
  
   * Examples:
   ![Plane](images/image.png) 
-  ![Horse](image-2.png) ![Boat](image-3.png) ![Automobile](image-4.png)
+  ![Horse](images/image-2.png)
+  ![Boat](images/image-3.png)
+    ![Automobile](images/image-4.png)
   
 ## 📋 Project Overview
 
@@ -211,24 +213,26 @@ resnet18_v2_results.pkl # ResNet-18 V2 history
 comparison_summary.txt # Model comparison
 ```
 ### Plots (plots/)
+#### CNN training curve
+![CNN training curves](CNN_RESNET18_Benchmarking_CIFAR10/plots/cnn_curves.png)
 
-![CNN training curves](plots/cnn_curves.png)
+#### ResNet-18 V1 Curves
+![ResNet-18 V1 Curves](CNN_RESNET18_Benchmarking_CIFAR10/plots/resnet18_v1_curves.png)
 
+#### ResNet-18 V2 Curves
+![ResNet-18 V2 Curve](CNN_RESNET18_Benchmarking_CIFAR10/plots/resnet18_v2_curves.png)
 
-![ResNet-18 V1 Curves](https://raw.githubusercontent.com/nournassar-2026/CIFAR_10_CNN_RESNET_benchmark/main/plots/resnet18_v1_curves.png)
-
-![ResNet-18 V2 Curve](https://raw.githubusercontent.com/nournassar-2026/CIFAR_10_CNN_RESNET_benchmark/main/plots/resnet18_v2_curves.png)
-
+#### Model Comparison
 ![Model Comparison](CNN_RESNET18_Benchmarking_CIFAR10/plots/model_comparison.png)
-```
 
+#### cnn_confusion_matrix
+![cnn_confusion_matrix](CNN_RESNET18_Benchmarking_CIFAR10/plots/cnn_confusion_matrix.png)
 
-*_confusion_matrix.png # Confusion matrices
-```
-![ ](cnn_confusion_matrix-2.png) 
+#### Resnet18_v1_confusion_matrix
+![Resnet18_v1_confusion_matrix](CNN_RESNET18_Benchmarking_CIFAR10/plots/resnet18_v1_confusion_matrix.png)
 
-![alt text](resnet18_v1_confusion_matrix.png)
-![alt text](resnet18_v2_confusion_matrix.png)
+#### Resnet18_v2_confusion_matrix
+![Resnet18_v2_confusion_matrixng](CNN_RESNET18_Benchmarking_CIFAR10/plots/resnet18_v2_confusion_matrix.png)
 
 ##  🐛Debugging 
 ## Problems encountered during this project and how they were fixed:
